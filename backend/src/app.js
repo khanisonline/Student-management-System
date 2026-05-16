@@ -10,7 +10,7 @@ const _dirname=path.resolve();
 
 
 app.use(cors({
-  origin:"https://student-management-system-q78d.onrender.com",
+  origin: "https://student-management-system-q78d.onrender.com",
   credentials: true
 }));
 
@@ -49,7 +49,7 @@ app.use("/api/enrollment", enrollmentRoutes);
 
  if(process.env.NODE_ENV ==="production"){
   app.use(express.static (path.join(_dirname, "../frontend/dist")));
- }
+ };
 
   app.use ((req,res)=>{
      res.sendFile(path.join(_dirname,"../frontend/dist/index.html"));

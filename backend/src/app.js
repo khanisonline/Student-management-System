@@ -10,7 +10,7 @@ const _dirname=path.resolve();
 
 
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://student-management-system-q78d.onrender.com",
   credentials: true
 }));
 

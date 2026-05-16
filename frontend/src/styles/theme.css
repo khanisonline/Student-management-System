@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", "Aptos", sans-serif;
+  --font-display: "Georgia", "Times New Roman", serif;
+  --bg-page: #f3f1ec;
+  --bg-page-accent: #ebe6dc;
+  --bg-surface: #fffdfa;
+  --bg-surface-solid: #ffffff;
+  --bg-sidebar: linear-gradient(180deg, #24313a, #1e2830);
+  --line-soft: rgba(49, 63, 72, 0.08);
+  --line-strong: rgba(49, 63, 72, 0.14);
+  --ink-strong: #172028;
+  --ink-body: #42515c;
+  --ink-soft: #778490;
+  --accent: #1f6b68;
+  --accent-deep: #154f4c;
+  --accent-soft: #dcebea;
+  --warm: #b88161;
+  --warm-soft: #f1e1d7;
+  --warning: #9b7440;
+  --warning-soft: #f5e7d2;
+  --danger: #ad605f;
+  --danger-soft: #f3dddd;
+  --success: #326a57;
+  --success-soft: #dbebe3;
+  --radius-xl: 20px;
+  --radius-lg: 16px;
+  --radius-md: 14px;
+  --shadow-card: 0 10px 24px rgba(24, 33, 39, 0.06);
+  --shadow-soft: 0 12px 24px rgba(24, 33, 39, 0.12);
+}
